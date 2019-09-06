@@ -1,1 +1,1 @@
-include ':app', ':websourceviewer'
+include ':XNC', ':websourceviewer'
