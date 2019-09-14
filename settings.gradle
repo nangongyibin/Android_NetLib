@@ -1,1 +1,1 @@
-include ':XNC', ':websourceviewer'
+include ':XNC', ':websourceviewer', ':oldnetlib'
