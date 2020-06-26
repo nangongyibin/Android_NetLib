@@ -1,1 +1,1 @@
-include ':XNC', ':websourceviewer', ':oldnetlib', ':filedownload', ':ion'
+include ':XNC', ':websourceviewer', ':oldnetlib', ':filedownload', ':ion', ':retrofit'
