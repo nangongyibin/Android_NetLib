@@ -1,1 +1,1 @@
-include ':XNC', ':websourceviewer', ':oldnetlib', ':filedownload', ':ion', ':retrofit', ':volley', ':glide', ':picasso'
+include ':XNC', ':websourceviewer', ':oldnetlib', ':filedownload', ':ion', ':retrofit', ':volley', ':glide', ':picasso', ':fresco'

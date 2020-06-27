@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--    <com.facebook.drawee.view.SimpleDraweeView-->
+    <!--        android:id="@+id/iv"-->
+    <!--        android:layout_width="200dp"-->
+    <!--        android:layout_height="140dp"-->
+    <!--        android:layout_centerInParent="true"-->
+
+
+    <!--        fresco:actualImageScaleType="centerCrop"-->
+    <!--        fresco:fadeDuration="300"-->
+    <!--        fresco:failureImage="@mipmap/ic_launcher"-->
+    <!--        fresco:failureImageScaleType="centerInside"-->
+    <!--        fresco:placeholderImage="@mipmap/ic_launcher"-->
+    <!--        fresco:placeholderImageScaleType="fitCenter"-->
+    <!--        fresco:pressedStateOverlayImage="@mipmap/ic_launcher"-->
+    <!--        fresco:progressBarAutoRotateInterval="1000"-->
+    <!--        fresco:progressBarImage="@mipmap/ic_launcher"-->
+    <!--        fresco:progressBarImageScaleType="fitCenter"-->
+    <!--        fresco:retryImage="@mipmap/ic_launcher"-->
+    <!--        fresco:retryImageScaleType="center"-->
+    <!--        fresco:roundAsCircle="true"-->
+    <!--        fresco:roundBottomLeft="true"-->
+    <!--        fresco:roundBottomRight="true"-->
+    <!--        fresco:roundTopLeft="true"-->
+    <!--        fresco:roundTopRight="true"-->
+    <!--        fresco:roundedCornerRadius="15dp"-->
+    <!--        fresco:roundingBorderColor="@color/colorAccent"-->
+    <!--        fresco:roundingBorderWidth="@dimen/dp_2" />-->
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:failureImage="@mipmap/ic_launcher"
+        app:placeholderImage="@mipmap/ic_launcher"
+        app:backgroundImage="@mipmap/ic_launcher"/>
+</RelativeLayout>
