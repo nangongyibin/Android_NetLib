@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
                 .with(this)
                 .load("http://it.nangongyibin.com:8080/resource/a.jpg")
                 .centerCrop()
-                .placeholder(R.mipmap.ic_launcher)
+//                .placeholder(R.mipmap.ic_launcher)
                 .error(R.mipmap.ic_launcher)
 //                .crossFade(500)
                 .into(iv);
